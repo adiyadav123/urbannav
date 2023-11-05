@@ -1,5 +1,12 @@
 let apiKey = 'f0e3dc82e9ebd729677c04544fce5c15';
 
+
+const webCamElement = document.getElementById("webCam");
+const canvas = document.getElementById("canvas");
+const webcam = new Webcam(webCamElement, "qr", canvas);
+
+webcam.start();
+
 document.addEventListener("DOMContentLoaded", function () {
     let first_City = document.querySelector("#first");
     let sec_City = document.querySelector("#sec");
@@ -104,4 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
               
         }
     })
+
+    
 });

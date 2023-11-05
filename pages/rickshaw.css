@@ -26,6 +26,7 @@ video {
     padding: 5px 20px;
     border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .rick_content{
@@ -34,5 +35,4 @@ video {
 
 canvas {
     display: none;
-    background-color: rebeccapurple;
 }

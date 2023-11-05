@@ -1,5 +1,6 @@
-const webCamElement = document.getElementById("webCam");
-const canvas = document.getElementById("canvas");
-const webcam =  new Webcam(webCamElement, "qr", canvas);
 
-webcam.start();
+
+const button = document.querySelector(".book");
+button.addEventListener("click", function () {
+    alert("Successfully unlocked the E-Rickshaw. Now you can access it.")
+})
