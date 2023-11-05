@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease 0.5s;
+    font-family: "Poppins", sans-serif;
+}
+
+::selection{
+    background-color: black;
+    color: white;
+}
+
+body {
+    transition: all ease 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: all ease 0.5s;
+}
+
+.container {
+    min-height: 200vh;
+    width: 100%;
+    background: linear-gradient(0deg, #3195ef 60%, whitesmoke 40%);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    padding: 25px 15px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img {
+    height: 20px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+.nav_icon_bar {
+    width: 25%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.headd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_icon_bar i {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav_heading {
+    width: 50%;
+    height: 6vh;
+}
+
+.nav_heading h1 {
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.9px;
+}
+
+.myAccount_button {
+    width: 25%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myAccount_button button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.myAccount_button a {
+    transition: all ease 0.5s;
+    position: relative;
+    letter-spacing: 0.9px;
+}
+
+.myAccount_button a::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    transition: all ease 0.5s;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    background-color: #3195ef;
+}
+
+
+.myAccount_button a:hover::after {
+    width: 100%;
+}
+
+
+
+/* HOME PAGE  */
+
+.home_content {
+    height: 120vh;
+}
+
+.main_head {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.main_tagline {
+    text-align: center;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+}
+
+.transport_type {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.types {
+    display: flex;
+    align-items: center;
+    width: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.label {
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.types:hover {
+    background-color: #3195ef;
+    border-radius: 10px;
+}
+
+
+
+.one,
+.two {
+    cursor: pointer;
+}
+
+.types i,
+.types p {
+    padding: 5px;
+}
+
+.input_box {
+    width: 100%;
+    margin-top: 20px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.input_box .main_input {
+    height: 45%;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(130, 130, 130, 0.529);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bor_less{
+    padding-left: 15px;
+}
+
+.input_box .main_input input {
+    height: 100%;
+    width: 49.5%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    margin: 0;
+}
+
+.input_section {
+    background-color: white;
+    width: 70%;
+    height: 100%;
+}
+
+.button_section {
+    height: 100%;
+    width: 30%;
+}
+
+.button_section button {
+    height: 100%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.bor {
+    border: 1px solid gray;
+}
+
+
+.thousand {
+    color: white;
+    height: auto;
+}
+
+.thousand h1 {
+    font-size: 45px;
+}
+
+.anim {
+    height: 430px;
+}
+
+.stats {
+    margin-top: 30px 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+}
+
+.texts i {
+    font-size: 21px;
+}
+.texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer {
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+.intro {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-weight: 500;
+}
+
+.intro h4 {
+    font-weight: 300;
+}
+
+.check_price {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.check_price:hover {
+    background-color: white;
+    color: black;
+}
+
+.check_price i {
+    color: black;
+}
+
+.main_footer {
+    padding: 0 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_footer a {
+    color: white;
+    margin: 10px;
+}
+
+.download {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+hr {
+    margin-top: 20px;
+}
+
+.download button {
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.download button a {
+    color: white;
+    text-decoration: none;
+}
+
+.aboutt {
+    background-color: whitesmoke;
+    padding: 20px 60px;
+}
+.aboutt .content {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.aboutt .content img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.team {
+    padding: 10px;
+    margin-left: 30px;
+}

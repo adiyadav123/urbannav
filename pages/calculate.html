@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Select</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./calculate.css">
+    <link rel="shortcut icon" href="../LOGO.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <!-- <div class="nav_icon_bar">
+                <i class="fa-solid fa-bars"></i>
+            </div> -->
+            <div class="nav_heading">
+                <a href="../index.html" class="headd">
+                    <h1 class="head">Prasthan</h1>
+                </a>
+            </div>
+            <div class="myAccount_button">
+                <button class="myBut"><a href="../index.html" class="myAcc">About Us</a></button>
+            </div>
+        </nav>
+
+        <center>
+            <div class="main_inputs">
+                <h1>PRICE</h1>
+                <br><br><br>
+                <form>
+                    <input type="text" placeholder="From" name="" id="first" required> <br> <br>
+                    <input type="text" placeholder="To" name="" id="sec" required>  <br><br>
+                    <select id="cars" name="cars" title="Vehcles" required>
+                        <option value="cycle">Bicycle</option>
+                        <option value="bike">E-bike</option>
+                        <option value="car">E-car</option>
+                        <option value="car">E-Rickshaw</option>
+                        </select>
+    
+                        <br><br>
+                    <button type="submit" value="Book" class="book">Book</button>
+                </form>
+                <br>
+                <span class="status"></span>
+              </div>
+        </center>
+        <script src="calculate.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

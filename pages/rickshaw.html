@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an E-Rickshaw</title>
+    <link rel="stylesheet" href="./rickshaw.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../LOGO.jpg" type="image/x-icon">
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy@1.1.1/dist/webcam-easy.min.js"></script>
+</head>
+<body>
+    <nav>
+        <!-- <div class="nav_icon_bar">
+            <i class="fa-solid fa-bars"></i>
+        </div> -->
+        <div class="nav_heading">
+            <a href="../index.html" class="headd">
+                <h1 class="head">Prasthan</h1>
+            </a>
+        </div>
+        <div class="myAccount_button">
+            <button class="myBut"><a href="../index.html" class="myAcc">About Us</a></button>
+        </div>
+    </nav>
+
+    <div class="rick_content">
+        <h1>Availability of Rickshaw </h1>
+<br><br>
+        <h3>We are currently having 300+ rickshaws in your locality.</h3>
+        <h4>Scan the QR to book a rickshaw.</h4>
+        <h4>Price will be based on the distance you will cover.</h4>
+        <h4>"We are only providing services for <b>Varanasi"</b></h4>
+
+        <br><br>
+        <video id="webCam" autoplay playsinlne width="800" height="500"></video>
+        <br>
+        <canvas id="canvas"></canvas>
+        <br>
+        <button class="book">Book now</button>
+    </div>
+    <script src="./rickshaw.js"></script>
+</body>
+</html>
